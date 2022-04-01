@@ -14,6 +14,7 @@ const UISlice = createSlice({
     },
 });
 
+export const UIActions = UISlice.actions;
 export const UIReducer = UISlice.reducer;
 
 
