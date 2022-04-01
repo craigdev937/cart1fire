@@ -1,5 +1,5 @@
 import React from "react";
-import Product from "./Product";
+import { ProdList } from "../components/ProdList";
 
 const DUMMY_PRODUCTS = [
     {
@@ -45,7 +45,7 @@ export const Products = () => {
             <ul className="products-container">
                 {DUMMY_PRODUCTS.map((product, index) => (
                     <li key={index}>
-                        <Product
+                        <ProdList
                             id={product.id}
                             name={product.name}
                             imgURL={product.imgURL}

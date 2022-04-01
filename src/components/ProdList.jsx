@@ -9,7 +9,7 @@ export const ProdList =
             <img src={imgURL} alt={name} />
             <h2>{name}</h2>
             <p>$ {price}</p>
-            <button onClick={addToCart}>Add to cart</button>
+            {/* <button onClick={addToCart}>Add to cart</button> */}
         </main>
     );
 };
